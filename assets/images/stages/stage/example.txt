@@ -1,0 +1,1 @@
+This is the stage example, that is held by the stage.json, the data of these images!
