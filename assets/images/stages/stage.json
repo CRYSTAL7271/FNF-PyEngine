@@ -1,0 +1,26 @@
+{
+	"defaultZoom": 0.9,
+	"stageUI": "",
+
+	"positions":{
+		"player1": [770, 100],
+		"player2": [400, 130],
+		"player3": [100, 100]
+	},
+	
+	"camera_speed": 1,
+	"camera_positions":[],
+
+	"preload": {
+		"stageback": [3, false],
+		"stagefront":[3, false],
+		"stagecurtains": [2, false],
+		"stage_light": [2, false]
+	},
+
+	"_editorMeta": {
+		"dad": "dad",
+		"boyfriend": "bf",
+		"gf": "gf"
+	}
+}
