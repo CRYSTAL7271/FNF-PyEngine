@@ -1,0 +1,1 @@
+There are all the sounds, so the modder or developer can retrieve the sounds easily only from the allSounds python dictionary (Only ogg allowed)
