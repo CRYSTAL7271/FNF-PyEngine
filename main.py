@@ -268,7 +268,7 @@ class Main:
         values = {}
         for sound in os.listdir(_dir):
             try:
-                if sound.split(".")[1] += "ogg":
+                if sound.split(".")[1] == "ogg":
                     
                         path = os.path.join(_dir, sound)
                         s = pg.mixer.Sound(path)
