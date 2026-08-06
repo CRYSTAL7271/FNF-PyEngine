@@ -27,7 +27,7 @@ Ignoring all the others, and checking in the sectionNotes, we have different thi
 This string calls a event and it's the mainfnf event, and it gives the: [playeroropponent].[character].[arrowdirection],
 this actually gives the game the explanation on how to call events. YOU can change this method, but it will be more time to lose for this!
 
-Outside of the sectionNotes there is: `"pyengine_version"` (currently in build 1) and `"needsVoices"` (means that the song needs Voices.ogg, or seperate Voices-dad and Voices-bf files ogg.
+Outside of the sectionNotes there is: `"pyengine_version"` (currently in build 1) and `"needsVoices"` (means that the song needs seperate Voices-dad and Voices-bf files ogg, if not it will just be Voices.ogg)
 
 # Guide - Adding a song
 
