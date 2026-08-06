@@ -1,0 +1,2 @@
+Here there all the noteSkins! Must have the same animation names to work in the pyengine game.
+Or just modify the game's code.
