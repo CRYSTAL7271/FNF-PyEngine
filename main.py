@@ -267,11 +267,15 @@ class Main:
         _dir = os.path.join("assets", "sounds")
         values = {}
         for sound in os.listdir(_dir):
-            path = os.path.join(_dir, sound)
-            s = pg.mixer.Sound(path)
-            values.update({sound.split(".")[0]: s})
-            LogHandler.printLog(f"Loaded sound asset: {path}")
-
+            try:
+                if sound.split(".")[1] += "ogg":
+                    
+                        path = os.path.join(_dir, sound)
+                        s = pg.mixer.Sound(path)
+                        values.update({sound.split(".")[0]: s})
+                        LogHandler.printLog(f"Loaded sound asset: {path}")
+            except IndexError:
+                    LogHandler.printLog(f"File without extension, ignoring..")
         return values
 
     def songEnd(self):
