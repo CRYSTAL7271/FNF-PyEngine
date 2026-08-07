@@ -16,7 +16,7 @@ The development made a different structure from psych and v-slice engines!
 # Guide - Conversion from psych to pyengine & chart structure
 
 In the chart structure it's usually used json, same here, only one difference..
-the arrows have a number to make the game understand which character will do that arrow, the game has two options..
+the arrows have a string in the array to make the game understand which character will do that arrow, the game has two options..
 opponent or player.
 
 For example:
